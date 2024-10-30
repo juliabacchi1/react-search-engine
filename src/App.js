@@ -1,11 +1,13 @@
-import "./index.css";
-import Search from "./Search";
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather Search Engine</h1>
-      <Search />
+      <div className="container">
+        <Weather defaultCity="Florianopolis" />
+      </div>
     </div>
   );
 }
