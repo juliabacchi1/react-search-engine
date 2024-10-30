@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./index.css";
 import Search from "./Search";
 
 export default function App() {
