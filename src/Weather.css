@@ -1,5 +1,5 @@
 .Weather {
-  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   background: white;
   border-radius: 16px;
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
@@ -32,7 +32,7 @@
 
 .Weather .btn {
   background: #222222;
-  font-weight: bold;
+  font-weight: 450;
   font-size: 16px;
   padding: 15px 0;
   border: none;
@@ -45,12 +45,19 @@
 }
 
 .Weather h1 {
-  margin: 20px 0 10px 0;
+  margin: 20px 10px;
   line-height: 29px;
   font-weight: bold;
   font-size: 38px;
   line-height: 48px;
   color: #272142;
+}
+
+.Weather h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  margin: 20px;
 }
 
 .Weather ul {
@@ -60,16 +67,16 @@
 
 .Weather li {
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-left: 10px;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
   list-style: none;
 }
 
 .Weather li strong {
   color: #f65282;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .Weather .temperature {

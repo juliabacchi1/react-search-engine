@@ -19,7 +19,7 @@ export default function Weather(props) {
       icon: response.data.condition.icon,
       wind: response.data.wind.speed,
       city: response.data.city,
-      feelsElement: response.data.temperature.feels_like,
+      // feelsElement: response.data.temperature.feels_like,
     });
   }
 
